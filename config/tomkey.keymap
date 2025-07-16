@@ -10,7 +10,7 @@
         TO_USB {
             bindings = <&to 5>;
             key-positions = <0 34 42 9>;
-            layers = <0 6>;
+            layers = <1 6>;
         };
     };
 
@@ -50,7 +50,7 @@
             bindings = <
 &trans   &kp N7  &kp N8  &kp N9  &trans                                 &trans             &kp LS(N7)        &kp LS(ASTERISK)  &kp LS(N9)        &kp MINUS
 &kp TAB  &kp N4  &kp N5  &kp N6  &kp RIGHT_BRACKET  &trans      &trans  &kp RIGHT_BRACE    &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp COLON
-&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(BACKSLASH)
+&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N8)
 &trans   &trans  &trans  &trans  &trans             &trans      &trans  &trans                                                                   &kp ASTERISK
             >;
         };
@@ -67,7 +67,7 @@
         USB {
             bindings = <
 &none  &none       &none       &none  &none                    &none  &none  &none  &none  &none
-&none  &none       &none       &none  &none  &to 0      &to 6  &none  &none  &none  &none  &none
+&none  &none       &none       &none  &none  &to 1      &to 6  &none  &none  &none  &none  &none
 &none  &bt BT_PRV  &bt BT_NXT  &none  &none  &none      &none  &none  &none  &none  &none  &none
 &none  &none       &none       &none  &none  &none      &none  &none                       &none
             >;
