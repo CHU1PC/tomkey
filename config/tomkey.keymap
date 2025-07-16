@@ -8,19 +8,19 @@
 
         default_layer {
             bindings = <
-&kp Q          &kp W         &kp E             &kp R  &kp T                                              &kp Y  &kp U  &kp I      &kp O    &kp P
-&kp A          &kp S         &kp D             &kp F  &kp G        &kp BACKSPACE      &kp LEFT_BRACKET   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z          &kp X         &kp C             &kp V  &kp B        &kp TAB            &kp RIGHT_BRACKET  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp BACKSPACE  &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 2  &lt 4 SPACE  &mo 1              &kp ENTER          &mo 3                             &lt 5 ESCAPE
+&kp Q          &kp W         &kp E             &kp R  &kp T                                            &kp Y  &kp U  &kp I      &kp O    &kp P
+&kp A          &kp S         &kp D             &kp F  &kp G      &kp BACKSPACE      &kp LEFT_BRACKET   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z          &kp X         &kp C             &kp V  &kp B      &kp TAB            &kp RIGHT_BRACKET  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp BACKSPACE  &kp LEFT_ALT  &kp LEFT_COMMAND  &mo 2  &kp SPACE  &mo 1              &kp ENTER          &mo 3                             &lt 5 ESCAPE
             >;
         };
 
         MOUSE {
             bindings = <
-&kp LS(Q)  &kp LS(W)     &kp LS(E)         &kp LS(R)       &kp LS(T)                                     &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
-&kp LS(A)  &kp LS(S)     &kp LS(D)         &kp LS(F)       &kp LS(G)  &trans      &kt LS(LEFT_BRACKET)   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
-&kp LS(Z)  &kp LS(X)     &kp LS(C)         &kp LS(V)       &kp LS(B)  &trans      &kp LS(RIGHT_BRACKET)  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans     &trans      &trans                 &mo 3                                                &trans
+&kp LS(Q)  &kp LS(W)     &kp LS(E)         &kp LS(R)  &kp LS(T)                                     &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
+&kp LS(A)  &kp LS(S)     &kp LS(D)         &kp LS(F)  &kp LS(G)  &trans      &kt LS(LEFT_BRACKET)   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
+&kp LS(Z)  &kp LS(X)     &kp LS(C)         &kp LS(V)  &kp LS(B)  &trans      &kp LS(RIGHT_BRACKET)  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &trans     &trans     &trans      &trans                 &mo 3                                                &trans
             >;
         };
 
