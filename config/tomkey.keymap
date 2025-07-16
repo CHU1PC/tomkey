@@ -37,10 +37,10 @@
 
         WIN-SCROLL {
             bindings = <
-&kp NUMBER_1  &trans  &trans  &trans  &trans                      &trans  &trans          &trans          &trans           &trans
-&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kt UP_ARROW    &kp RIGHT_ARROW  &kt LEFT_BRACKET
-&kp F12       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &kt DOWN_ARROW  &trans           &kt RIGHT_BRACKET
-&kp F12       &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans          &kp UP_ARROW    &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kt DOWN_ARROW  &kp RIGHT_ARROW  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &trans          &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
             >;
         };
 
