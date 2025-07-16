@@ -48,10 +48,10 @@
 
         WIN-ARROW {
             bindings = <
-&trans   &kp N7  &kp N8  &kp N9  &trans                                 &trans           &kp COLON         &kp RIGHT_PARENTHESIS  &kp LS(N0)        &kp MINUS
-&kp TAB  &kp N4  &kp N5  &kp N6  &kp RIGHT_BRACKET  &trans      &trans  &kp RIGHT_BRACE  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)       &kp LS(NUMBER_6)  &kp PLUS
-&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(SLASH)    &kp LS(NUMBER_1)  &kp LS(ASTERISK)       &kp LS(NUMBER_3)  &kp LS(BACKSLASH)
-&trans   &trans  &trans  &trans  &trans             &trans      &trans  &trans                                                                      &kp LS(NUMBER_2)
+&trans   &kp N7  &kp N8  &kp N9  &trans                                 &trans           &kp COLON         &kp LS(ASTERISK)  &kp LS(N0)        &kp MINUS
+&kp TAB  &kp N4  &kp N5  &kp N6  &kp RIGHT_BRACKET  &trans      &trans  &kp RIGHT_BRACE  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp PLUS
+&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(SLASH)    &kp LS(NUMBER_1)  &kp ASTERISK      &kp LS(NUMBER_3)  &kp LS(BACKSLASH)
+&trans   &trans  &trans  &trans  &trans             &trans      &trans  &trans                                                                 &kp LS(NUMBER_2)
             >;
         };
 
