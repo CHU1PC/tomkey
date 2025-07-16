@@ -21,7 +21,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                               &kp Y  &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G  &mkp MB1      &kp BACKSPACE  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V      &kp B  &mkp MB2      &kp TAB        &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z             &kp X         &kp C         &kp V      &kp B  &mkp MB2      &kp GRAVE      &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 2  &mo 1         &kp ENTER      &mo 3                             &kp RIGHT_BRACKET
             >;
 
@@ -32,7 +32,7 @@
             bindings = <
 &kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
 &kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp MB1      &kp BACKSPACE   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp SINGLE_QUOTE
-&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &kp LS(B)  &mkp MB2      &kp LANGUAGE_4  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
+&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &kp LS(B)  &mkp MB2      &kp GRAVE       &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans     &trans        &kp LS(RETURN)  &mo 3                                                &kp UNDERSCORE
             >;
         };
@@ -50,17 +50,17 @@
             bindings = <
 &trans   &kp N7  &kp N8  &kp N9  &trans                                 &trans             &kp LS(N7)        &kp LS(ASTERISK)  &kp LS(N9)        &kp MINUS
 &kp TAB  &kp N4  &kp N5  &kp N6  &kp RIGHT_BRACKET  &trans      &trans  &kp RIGHT_BRACE    &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp COLON
-&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(N8)
+&kp N0   &kp N1  &kt N2  &kp N3  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(UNDERSCORE)
 &trans   &trans  &trans  &trans  &trans             &mo 4       &trans  &trans                                                                   &kp DOUBLE_QUOTES
             >;
         };
 
         WIN-FUNCTION {
             bindings = <
-&trans  &kp F7  &kp F8  &kp F9  &kp F10                                 &trans          &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp MINUS
-&trans  &kp F4  &kp F5  &kp F6  &kp LEFT_BRACKET   &kp F11      &trans  &kp LEFT_BRACE  &kp DOLLAR        &kp PERCENT           &kp AMPERSAND          &kp PLUS
-&trans  &kp F1  &kp F2  &kp F3  &kp RIGHT_BRACKET  &kp F12      &trans  &kp UNDERSCORE  &kp AT_SIGN       &kp GRAVE             &kp QUESTION           &kp EQUAL
-&trans  &trans  &trans  &trans  &trans             &mo 4        &trans  &trans                                                                         &trans
+&trans  &kp F7  &kp F8  &kp F9  &kp F10                                 &trans             &trans  &trans  &trans  &kp MINUS
+&trans  &kp F4  &kp F5  &kp F6  &kp RIGHT_BRACKET  &kp F11      &trans  &kp RIGHT_BRACE    &trans  &trans  &trans  &kp COLON
+&trans  &kp F1  &kp F2  &kp F3  &kp BACKSLASH      &kp F12      &trans  &kp LS(BACKSLASH)  &trans  &trans  &trans  &kp LS(UNDERSCORE)
+&trans  &trans  &trans  &trans  &trans             &mo 4        &trans  &trans                                     &kp DOUBLE_QUOTES
             >;
         };
 
