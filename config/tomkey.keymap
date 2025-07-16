@@ -20,7 +20,7 @@
 &kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                     &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
 &kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &trans      &kt LS(LEFT_BRACKET)   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
 &kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &kp LS(B)  &trans      &kp LS(RIGHT_BRACKET)  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans     &trans      &kp LS(RETURN)         &mo 3                                                &kt END
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans     &trans      &kp LS(RETURN)         &mo 3                                                &kt LS(BACKSLASH)
             >;
         };
 
