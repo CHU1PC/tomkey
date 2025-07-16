@@ -10,7 +10,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                      &kp Y  &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G  &mkp LCLK           &kp BACKSPACE   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V      &kp B  &kt LANGUAGE_6      &kp LANGUAGE_4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z             &kp X         &kp C         &kp V      &kp B  &kt LANGUAGE_1      &kp LANGUAGE_4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kt SPACE  &mo 2  &mo 1               &kp ENTER       &mo 3                             &kt BACKSLASH
             >;
         };
