@@ -28,18 +28,18 @@
         SCROLL {
             bindings = <
 &kp NUMBER_1  &trans  &trans  &trans  &trans                      &trans  &trans          &trans          &trans           &trans
-&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kt UP_ARROW    &kp RIGHT_ARROW  &trans
-&kp F12       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &kt DOWN_ARROW  &trans           &trans
+&trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kt UP_ARROW    &kp RIGHT_ARROW  &kt LEFT_BRACKET
+&kp F12       &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans          &kt DOWN_ARROW  &trans           &kt RIGHT_BRACKET
 &kp F12       &trans  &trans  &trans  &trans  &trans      &trans  &trans                                                   &trans
             >;
         };
 
         ARROW {
             bindings = <
-&kp N1    &kp N2                  &kp N3        &kp N4                   &kp N5                                 &kp N6  &kp N7    &kp N8          &kp N9           &kp LG(N0)
-&kp TAB   &kp LG(LC(LEFT_ARROW))  &kp LG(LEFT)  &kp LG(LC(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &trans  &mkp MB1  &mkp MB2        &kp RIGHT_ARROW  &kp LEFT_BRACKET
-&kp LCMD  &kp LG(LS(LEFT_ARROW))  &trans        &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &trans    &kp DOWN_ARROW  &trans           &kp RIGHT_BRACKET
-&trans    &trans                  &trans        &trans                   &trans             &trans      &trans  &trans                                             &trans
+&trans    &trans                  &trans        &trans                   &trans                                 &trans  &trans    &trans    &trans  &trans
+&kp TAB   &kp LG(LC(LEFT_ARROW))  &kp LG(LEFT)  &kp LG(LC(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&kp LCMD  &kp LG(LS(LEFT_ARROW))  &trans        &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &trans    &trans    &trans  &kp RIGHT_BRACKET
+&trans    &trans                  &trans        &trans                   &trans             &trans      &trans  &trans                              &trans
             >;
         };
 
