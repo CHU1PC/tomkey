@@ -19,19 +19,19 @@
 
         WIN-DEFAULT {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                      &kp Y  &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G  &mkp MB1            &kp BACKSPACE   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V      &kp B  &kp LANGUAGE_5      &kp LANGUAGE_4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 2  &mo 1               &kp ENTER       &mo 3                             &kp BACKSLASH
+&kp Q             &kp W         &kp E         &kp R      &kp T                                &kp Y  &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G  &mkp MB1      &kp BACKSPACE   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z             &kp X         &kp C         &kp V      &kp B  &mkp MB2      &kp LANGUAGE_4  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &mo 2  &mo 1         &kp ENTER       &mo 3                             &kp BACKSLASH
             >;
         };
 
         WIN-SHIFT {
             bindings = <
-&kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                      &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
-&kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp MB2            &kp BACKSPACE   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
-&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &kp LS(B)  &kp LANGUAGE_5      &kp LANGUAGE_4  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans     &trans              &kp LS(RETURN)  &mo 3                                                &kp LS(BACKSLASH)
+&kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
+&kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp MB1      &kp BACKSPACE   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
+&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &kp LS(B)  &mkp MB2      &kp LANGUAGE_4  &kp LS(N)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE  &trans     &trans        &kp LS(RETURN)  &mo 3                                                &kp LS(BACKSLASH)
             >;
         };
 
