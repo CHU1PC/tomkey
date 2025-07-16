@@ -6,16 +6,16 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        WIN-DEFAULT {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                &kp Y  &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F      &kp G  &mkp LCLK      &kp BACKSPACE  &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V      &kp B  &mkp RCLK      &kp TAB        &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kt SPACE  &mo 2  &mo 1          &kp ENTER      &mo 3                             &kt BACKSLASH
+&kp Q             &kp W         &kp E         &kp R      &kp T                                      &kp Y  &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F      &kp G  &mkp LCLK           &kp BACKSPACE   &kp H  &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z             &kp X         &kp C         &kp V      &kp B  &kt LANGUAGE_4      &kp LANGUAGE_1  &kp N  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &kt SPACE  &mo 2  &mo 1               &kp ENTER       &mo 3                             &kt BACKSLASH
             >;
         };
 
-        SHIFT {
+        WIN-SHIFT {
             bindings = <
 &kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                 &kp LS(Y)  &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
 &kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp LCLK      &kt BACKSPACE   &kp LS(H)  &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp LS(SEMICOLON)
@@ -24,7 +24,7 @@
             >;
         };
 
-        SCROLL {
+        WIN-SCROLL {
             bindings = <
 &kp NUMBER_1  &trans  &trans  &trans  &trans                      &trans  &trans          &trans          &trans           &trans
 &trans        &trans  &trans  &trans  &trans  &trans      &trans  &trans  &kp LEFT_ARROW  &kt UP_ARROW    &kp RIGHT_ARROW  &kt LEFT_BRACKET
@@ -33,7 +33,7 @@
             >;
         };
 
-        ARROW {
+        WIN-ARROW {
             bindings = <
 &trans   &kt N7  &kt N8  &kt N9  &trans                                 &trans           &kt SINGLE_QUOTE  &kt LEFT_PARENTHESIS  &kt RIGHT_PARENTHESIS  &kt MINUS
 &kp TAB  &kp N4  &kp N5  &kp N6  &kp LEFT_BRACKET   &trans      &trans  &kt LEFT_BRACE   &kt DOLLAR        &kt PERCENT           &kt AMPERSAND          &kt PLUS
@@ -42,7 +42,7 @@
             >;
         };
 
-        FUNCTION {
+        WIN-FUNCTION {
             bindings = <
 &trans  &kt F7  &kt F8  &kt F9  &kt F10                                 &trans           &kp SINGLE_QUOTE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kt MINUS
 &trans  &kt F4  &kt F5  &kt F6  &kt LEFT_BRACKET   &kt F11      &trans  &kt LEFT_BRACE   &kp DOLLAR        &kp PERCENT           &kp AMPERSAND          &kt PLUS
