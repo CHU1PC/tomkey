@@ -52,7 +52,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R    &kp T                                            &kp Y       &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F    &kp G      &mkp MB1              &mkp MB2        &kp H       &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V    &mo 2      &kp INT_MUHENKAN      &kp INT_HENKAN  &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z             &kp X         &kp C         &kp V    &mo 2      &kp JP_EISU           &kp JP_KANA     &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3    &kp SPACE  &kp B                 &kp N           &mo 4                                  &kp JP_YEN
             >;
 
@@ -63,7 +63,7 @@
             bindings = <
 &kp Q             &kp W         &kp E         &kp R    &kp T                                            &kp Y       &kp U  &kp I      &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F    &kp G      &mkp MB1              &mkp MB2        &kp H       &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V    &mo 2      &kp INT_MUHENKAN      &kp INT_HENKAN  &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp Z             &kp X         &kp C         &kp V    &mo 2      &kp JP_EISU           &kp JP_KANA     &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3    &kp SPACE  &kp B                 &kp N           &mo 4                                  &kp JP_YEN
             >;
         };
@@ -81,7 +81,7 @@
             bindings = <
 &kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                        &kp LS(Y)    &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
 &kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp MB1            &mkp MB2          &kp LS(H)    &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp SINGLE_QUOTE
-&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &trans     &kp INT_HENKAN      &kp INT_MUHENKAN  &kp LS(RET)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
+&kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &trans     &kp JP_EISU         &kp JP_KANA       &kp LS(RET)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans     &kp SPACE  &kp LS(B)           &kp LS(N)         &mo 4                                                  &kp JP_UNDER
             >;
         };
