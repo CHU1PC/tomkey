@@ -48,14 +48,14 @@
         hiragana: hiragana {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp INT_HENKAN &kp INT2>;
+            bindings = <&kp INT_HENKAN &kp LANG1>;
             label = "HIRAGANA";
         };
 
         eigo: eigo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp INT_MUHENKAN &kp CAPS>;
+            bindings = <&kp INT_MUHENKAN &kp LANG2>;
             label = "EIGO";
         };
     };
@@ -66,9 +66,9 @@
         WIN-DEFAULT {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R  &kp T                               &kp Y       &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F  &kp G      &mkp MB1       &mkp MB2  &kp H       &kp J  &kp K      &kp L    &kp SEMICOLON
-&kp Z             &kp X         &kp C         &kp V  &mo 2      &hiragana      &eigo     &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3  &kp SPACE  &kp B          &kp N     &mo 4                                  &kp JP_YEN
+&kp A             &kp S         &kp D         &kp F  &kp G      &mkp MB1      &mkp MB2   &kp H       &kp J  &kp K      &kp L    &kp SEMICOLON
+&kp Z             &kp X         &kp C         &kp V  &mo 2      &eigo         &hiragana  &kp RETURN  &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &mo 3  &kp SPACE  &kp B         &kp N      &mo 4                                  &kp JP_YEN
             >;
 
             label = "Default";
