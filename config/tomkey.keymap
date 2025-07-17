@@ -64,7 +64,7 @@
 &kp LS(Q)  &kp LS(W)     &kp LS(E)     &kp LS(R)  &kp LS(T)                                        &kp LS(Y)    &kp LS(U)  &kp LS(I)      &kp LS(O)       &kp LS(P)
 &kp LS(A)  &kp LS(S)     &kp LS(D)     &kp LS(F)  &kp LS(G)  &mkp MB1            &mkp MB2          &kp LS(H)    &kp LS(J)  &kp LS(K)      &kp LS(L)       &kp SINGLE_QUOTE
 &kp LS(Z)  &kp LS(X)     &kp LS(C)     &kp LS(V)  &trans     &kp INT_HENKAN      &kp INT_MUHENKAN  &kp LS(RET)  &kp LS(M)  &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans  &kp LS(B)     &kp SPACE              &mo 3             &kp LS(N)                                              &kp JP_UNDER
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &trans     &kp LS(B)  &kp SPACE           &mo 3             &kp LS(N)                                              &kp JP_UNDER
             >;
         };
 
@@ -81,7 +81,7 @@
             bindings = <
 &kp TAB        &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET                      &kp RIGHT_BRACE    &kp LS(N7)        &kp LS(ASTERISK)  &kp LS(N9)        &kp MINUS
 &kp BACKSPACE  &kp N4  &kp N5  &kp N6  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp COLON
-&kp N0         &kp N1  &kt N2  &kp N3  &trans             &trans      &trans  &trans             &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(UNDERSCORE)
+&kp N0         &kp N1  &kp N2  &kp N3  &trans             &trans      &trans  &trans             &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(UNDERSCORE)
 &trans         &trans  &trans  &trans  &trans             &mo 4       &trans  &trans                                                                   &kp DOUBLE_QUOTES
             >;
         };
@@ -106,10 +106,10 @@
 
         MAC-DEFAULT {
             bindings = <
-&kp Q   &kp W   &kp E   &kp R      &kp T                           &kp Y   &kp U  &kp I      &kp O    &kp P
-&kp A   &kp S   &kp D   &kp F      &kp G   &mkp MB1      &kp BSPC  &kp H   &kp J  &kp K      &kp L    &kp SEMI
-&kp Z   &kp X   &kp C   &kp V      &kp B   &mkp MB2      &kp TAB   &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH
-&trans  &trans  &trans  &mo 7      &trans  &kp SPACE     &kp RET   &trans                             &kp NON_US_BACKSLASH
+&kp Q             &kp W         &kp E         &kp R    &kp T                           &kp Y        &kp U  &kp I      &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F    &kp G   &mkp MB1      &mkp MB2  &kp H        &kp J  &kp K      &kp L    &kp SEMI
+&kp Z             &kp X         &kp C         &kp V    &kp B   &mkp MB2      &kp TAB   &kp RETURN   &kp M  &kp COMMA  &kp DOT  &kp FSLH
+&kp LEFT_COMMAND  &kp LEFT_WIN  &kp LEFT_ALT  &mo 7    &trans  &kp SPACE     &mo 2     &kp N                                   &kp NON_US_BACKSLASH
             >;
         };
 
