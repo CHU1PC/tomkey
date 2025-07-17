@@ -44,15 +44,6 @@
 #define JP_UNDER LS(JP_BSLH)  // _
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        TO_USB {
-            bindings = <&to 5>;
-            key-positions = <0 34 42 9>;
-            layers = <0 6>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -100,7 +91,7 @@
 &kp TAB        &kp F7  &kp F8  &kp F9  &kp RIGHT_BRACKET                       &kp RIGHT_BRACE    &trans          &trans                &trans        &kp MINUS
 &kp BACKSPACE  &kp F4  &kp F5  &kp F6  &kp BACKSLASH      &kp F11      &trans  &kp LS(BACKSLASH)  &kp JP_TILDE    &kp JP_CARET          &kp JP_PIPE   &kp COLON
 &trans         &kp F1  &kp F2  &kp F3  &trans             &kp F12      &trans  &trans             &trans          &trans                &trans        &kp LS(UNDERSCORE)
-&trans         &trans  &trans  &trans  &kp F10            &trans       &trans  &trans                                                                 &kp DOUBLE_QUOTES
+&to 5          &trans  &trans  &trans  &kp F10            &trans       &trans  &trans                                                                 &kp DOUBLE_QUOTES
             >;
         };
 
