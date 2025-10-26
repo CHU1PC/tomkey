@@ -104,7 +104,7 @@
         WIN-ARROW {
             bindings = <
 &kp TAB        &kp N7  &kp N8  &kp N9  &kp RIGHT_BRACKET                      &kp RIGHT_BRACE    &kp LS(N7)        &kp LS(ASTERISK)  &kp LS(N9)        &kp MINUS
-&kp BACKSPACE  &kp N4  &kp N5  &kp N6  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp COLON
+&kp BACKSPACE  &kp N4  &kp N5  &kp N6  &kp BACKSLASH      &trans      &trans  &kp LS(BACKSLASH)  &kp LS(NUMBER_4)  &kp LS(NUMBER_5)  &kp LS(NUMBER_6)  &kp SINGLE_QUOTE
 &kp N0         &kp N1  &kp N2  &kp N3  &trans             &trans      &trans  &trans             &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(UNDERSCORE)
 &trans         &trans  &trans  &mo 5   &trans             &trans      &trans  &trans                                                                   &kp DOUBLE_QUOTES
             >;
